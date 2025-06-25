@@ -89,6 +89,7 @@ class NmkRepository implements NmkRepositoryInterface
     {
         try {
             $user = $this->model->find($id);
+            Log::info("Model deleted with id: " . $id);
             return $user->delete();
         } catch (Exception $e) {
             Log::error($e->getMessage());

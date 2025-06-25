@@ -1,4 +1,4 @@
-# Laravel YourPackage
+# Laravel Package
 
 A Laravel package that can be used for simple CRUD proccesses.
 Developer don't need to interact with models.
